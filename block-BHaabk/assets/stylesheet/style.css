@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Custom style */
+body {
+  background-color: gray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+.img {
+  width: 100%;
+}
+
+header {
+  background-color: blueviolet;
+}
+.logo {
+  display: inline-block;
+  width: 150px;
+  margin: 20px 0;
+}
+.link a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+.heading {
+  margin-right: 10px;
+}
+.para {
+  font-size: 40px;
+  display: flex;
+  margin: 50px 0;
+}
+.img {
+  width: 100%;
+  border: 10px solid paleturquoise;
+  border-radius: 50px;
+  margin-bottom: 90px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.image3 {
+  width: 400px;
+  height: 300px;
+  border: 5px solid yellowgreen;
+  border-radius: 30px;
+}
+footer {
+  background-color: brown;
+  margin-top: 20px;
+  padding: 20px;
+}
+.font a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
