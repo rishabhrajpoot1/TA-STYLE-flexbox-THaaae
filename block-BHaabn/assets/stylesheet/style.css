@@ -55,17 +55,19 @@ table {
 
 header{
     background-color: rgb(33,41,70);
+}
+.container{
+    max-width: 1330;
+    margin: 0 auto;
+    padding: 0 32px;
     display:flex;
     justify-content: space-between;
 }
 .logo{
     width: 150px;
     margin:auto 0;
-    margin: 30px;
-    margin-top: 30px;
 }
 .link {
-  
   padding: 40px; 
 }
 .white {
